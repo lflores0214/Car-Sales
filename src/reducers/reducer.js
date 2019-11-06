@@ -11,7 +11,7 @@ export const reducer = (state, action) => {
 }
 
 export const initialState = {
-    addtionalPrice: 0,
+    additionalPrice: 0,
     car: {
         price: 26395,
         name: '2019 Ford Mustang',

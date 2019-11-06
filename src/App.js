@@ -15,7 +15,7 @@ const store = createStore(reducer, initialState);
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log(state);
+  console.log(state.additionalPrice);
 
   return (
     <Provider store={store}>
