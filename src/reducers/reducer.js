@@ -4,8 +4,6 @@
 
 
 
-
-
 export const reducer = (state, action) => {
     switch (action.type){
 
@@ -20,7 +18,7 @@ export const initialState = {
         image: 'https://cdn.motor1.com/images/mgl/0AN2V/s1/2019-ford-mustang-bullitt.jpg',
         features: []
     },
-    addionalFeatures: [
+    additionalFeatures: [
         { id:1, name: 'V-6 engine', price: 1500 },
         { id:2, name: 'Racing deatail package', price: 1500 },
         { id:3, name: 'Premium sound system', price: 500 },
